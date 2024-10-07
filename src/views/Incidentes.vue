@@ -15,7 +15,7 @@ const incidentes = ref([])
 async function fetchInitialAllIncidentes() {
   try {
     const response = await axios.get('http://localhost:5000/incidentes')
-    incidentes.value = response.data.incidentes
+    incidentes.value = response.data
   } catch (error) {
     console.error('Error fetching cat facts:', error)
   }

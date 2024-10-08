@@ -76,7 +76,7 @@ export default {
                     'status': 'CLOSED'
                 })
 
-                if (response.data.success == true) {
+                if (response.data.success == true || response.data.success == "true") {
                     this.$swal('Bom trabalho!', 'Incidente resolvido com sucesso!', 'success')
                     
                     this.redirectToHome()

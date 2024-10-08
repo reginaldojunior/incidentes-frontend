@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-5">
-        <h1 class="text-white">Formulário de Empréstimo</h1>
+        <h1 class="text-white">Formulário de Cadastro</h1>
         <form class="form" @submit.prevent="submitForm">
             <!-- Display book information -->
             <div class="mb-3">
